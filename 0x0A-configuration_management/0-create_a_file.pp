@@ -1,5 +1,5 @@
-#!/usr/bin/puppet
 # creates a file with some content and permissions
+#!/usr/bin/puppet
 file { '/tmp/holberton':
     ensure  => 'present',
     replace => 'no',
