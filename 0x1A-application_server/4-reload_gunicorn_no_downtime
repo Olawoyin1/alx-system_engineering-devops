@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# restarts gunicorn
+
+systemctl restart gunicorn
